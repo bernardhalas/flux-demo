@@ -1,0 +1,23 @@
+---
+resources:
+- ns.yaml
+- crds/alerts.yaml
+- crds/buckets.yaml
+- crds/gitrepositories.yaml
+- crds/helmcharts.yaml
+- crds/helmreleases.yaml
+- crds/helmrepositories.yaml
+- crds/kustomizations.yaml
+- crds/providers.yaml
+- crds/receivers.yaml
+- controllers/svc.yaml
+- controllers/kustomize-controller.yaml
+- controllers/helm-controller.yaml
+- controllers/source-controller.yaml
+- controllers/notification-controller.yaml
+- rbac/cr.yaml
+- rbac/crb.yaml
+- rbac/sa.yaml
+- kustomization-configuration.yaml
+- git-repo.yaml
+- git-token.yaml
