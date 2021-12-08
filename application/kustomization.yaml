@@ -1,0 +1,9 @@
+---
+kind: Kustomization
+resources:
+- frontend-deployment.yaml
+- frontend-service.yaml
+- redis-follower-deployment.yaml
+- redis-follower-service.yaml
+- redis-leader-deployment.yaml
+- redis-leader-service.yaml
