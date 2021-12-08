@@ -351,3 +351,6 @@ MigrationBackup/
 
 # Terraform service account key
 key.json
+
+# GitHub Private Tokens
+export-tokens.sh
