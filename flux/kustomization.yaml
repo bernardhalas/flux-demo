@@ -18,6 +18,6 @@ resources:
 - rbac/cr.yaml
 - rbac/crb.yaml
 - rbac/sa.yaml
-- kustomization-configuration.yaml
-- git-repo.yaml
+#- kustomization-configuration.yaml
+#- git-repo.yaml
 - git-token.yaml
